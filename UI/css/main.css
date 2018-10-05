@@ -6,15 +6,33 @@ body{
 header{
     background-color: #7283AA;
     color:white;
+    display: block;
+    
 }
 header .highlight, header .current a{
     color:#e8491d;
     font-weight:bold;
   }
+#logo{
+  float:left;
+}
+#search_n_login{
+  margin-top: 10px;
+  float: right;
+}
   hr{
-    color: #e8491d;
-    padding: 0px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   
   }
+
+  .container{
+    /*width: 80%;*/
+    overflow: hidden;
+    
+}
 
   .column {
     float: left;
@@ -41,6 +59,7 @@ header .highlight, header .current a{
     margin:5px;
     padding-left: 20px;
     padding-right:20px;
+    
     color:#ffffff;
   }
   header #log_in_button{
@@ -51,8 +70,17 @@ header .highlight, header .current a{
     margin:5px;
     padding-left: 20px;
     padding-right:20px;
+    
     color:#ffffff;
   }
+ 
+  input[type=text] {
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
   .vertical-menu a {
     /*background-color: #7283AA; /* Grey background color */
     background-color: white;
